@@ -1,0 +1,241 @@
+<!doctype html>
+<!-- Atrybut lang przypisany do tagu html -->
+<html lang="pl-PL">
+<!-- Tresc strony -->
+<head>
+<!-- ustawienia dokumentu html -->
+	<meta charset="utf-8" >
+	<meta name="description" content="HTML,CSS Tutorial">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="key1 , key2">
+	<!-- Page title -->
+	<title>Tytul strony</title>
+</head>
+
+<body>
+<!-- widoczna Tresc strony -->
+	<p>Hello world!</p>
+	<!-- Internal link example -->
+	<a href="#section1">Przejdz do sekcji 1</a>
+	<!-- Main navigation -->
+	<nav>
+		<ul>
+			<li>Start</li>
+			<li>Kontakt</li>
+		</ul>
+	</nav>
+	<!--example of div and span use -->
+	<div class="header">
+		<h1>
+			To jest naglowek<span> pierwszego</span> rzedu
+		</h1>
+	</div>
+	<!--headers example-->
+	<h1>Witaj na mojej stronie</h1>
+	<h2>O mnie</h2>
+	<h3>Moje projekty</h3>
+	<h4>Moje projekty</h4>
+	<h5>Moje projekty</h5>
+	<h6>Moje projekty</h6>
+	
+	<!-- example of paragraph -->
+	<h1> Pan Tadeusz</h1>
+	<p>
+		Litwo! Ojczyzno moja! Ile Ciebie trzeba cenić ten tylko sie dowie...
+	</p>
+	<!-- special symbols -->
+	&trade; &lt; &gt; &copy; &reg; &alpha;
+	<!-- non-breaking space -->
+	<p>
+		Litwo!&nbsp;Ojczyzno&nbsp;Moja&nbsp;!
+	</p>
+	<!-- line break example -->
+	<p>
+		Sprawdzamy,	jak
+		przegladarka 	interpretuje   biale znaki
+		Do przelamania linii nalezy            uzyc <br>
+		line break
+	</p>
+	<!-- horizontal line example -->
+	<p>
+		Czas biegnie ma tempo szalone,
+	</p>
+	<hr>
+	<p>
+		Ja walcze zeby mu wyrwac moment.
+	</p>
+	<!-- bold and cursive font example -->
+	<p>
+			W tym zdaniu pewne <strong>slowo</strong> ma bardzo duza wage.
+			Czesc kolejnego zdania <em>warta jest pochylenia.</em>
+	</p>
+	<p>
+			W tym zdaniu pewne <b>slowo</b> ma bardzo duza wage.
+			Czesc kolejnego zdania <i>warta jest pochylenia.</i>
+	</p>
+	<!-- making font smaller by 1 size -->
+	<div>
+		<p>
+			Duzy
+			<small>
+				maly
+				<small>
+					mniejszy
+					<small>
+						najmniejszy
+					</small>
+				</small>
+			</small>
+		</p>
+	</div>
+	<!-- marking text background -->
+	<p>
+		Kocham Cie Moskwo, <mark>to plonie Paryz</mark>
+	</p>
+	<!-- upper and lower index -->
+	<p>
+		Wzor sumaryczny kwasu siarkowego to: H<sub>2</sub>SO<sub>4</sub>
+		potega 2<sup>0</sup> = 1
+	</p>
+	<!-- strikethrough text -->
+	<p>
+		<s>Oferta wazna tylko do jutra!</s>
+	</p>
+	<p>
+		Zajmuje sie fotografia <del>slubna</del> <ins>glebinowa</ins>, natury. <br>
+		Sprzedaje sie za <del>100,00</del><ins>50,99</ins> zl
+	</p>
+	<!-- ordered list -->
+	<ol>
+		<li>Element 1</li>
+		<li>Element 2</li>
+		<li>Element 3</li>
+	</ol>
+	<!-- unordered list -->
+	<ul>
+		<li>Element 1</li>
+		<li>Element 2</li>
+		<li>Element 3</li>
+	</ul>
+	<!-- definition list -->
+	<dl>
+		<dt>Term 1</dt>
+		<dd>Description of term 1</dd>
+		<dt>Term 2</dt>
+		<dt>Term 3</dt>
+		<dd>Description of terms 2 and 3</dd>
+		<dt>Term 4</dt>
+		<dd>First description of term 4</dd>
+		<dd>Second description of term 4</dd>
+	</dl>
+	<!-- list nesting -->
+	<ol>
+		<li>
+			Element 1
+			<ul>
+				<li>Subelement 1.1</li>
+				<li>Subelement 1.2</li>
+			</ul>
+		</li>
+		<li>Element 2</li>
+		<li>Element 3</li>
+	</ol>
+	<!-- Hyperlinks -->
+	<a>Text without link</a>
+	<a href="https://www.wp.pl" rel="nofollow" target="_blank">Serwis informacyjny</a>
+	<!-- inline frame-->
+	<p>
+		<iframe src="https://www.wp.pl"></iframe>
+	</p>
+	<!-- section example -->
+	<p id="section1">
+		Chcialbym napisac po lacinie ale nie znam laciny	
+	</p>
+	<!-- linking other html files -->
+	<a href="subpage1.html">
+		Przejdz do podstrony 1
+	</a>
+	<a href="subpage2.html">
+		Przejdz do podstrony 2
+	</a>
+	<a href="#">
+		Link do biezacej strony
+	</a>
+	<!-- putting images examples -->
+	<p>
+		<img src="Images/html_logo.png" width="350" height="350" alt="logo HTML5" title="logo HTML5">
+	</p>
+	<p>
+		Jakis przypalowy i niesmieszny tekst, byc moze nawet cytujacy klasyke literatury
+	</p>
+	<img src="nie_ma_takiego_obrazu.jpg" >
+	<p>
+		Chyba ten akapit powinien nie wygladac zgodnie z oczekiwaniami
+	</p>
+	<img src="nie_ma_takiego_obrazu.jpg" alt="nie ma tu obrazu" title="obrazu tu nie ma">
+	<!-- table example -->
+	<table>
+		<tr>
+			<th scope="col">kolumna 1</th>
+			<th scope="col">kolumna 2</th>
+		</tr>
+		<tr>
+			<td>1.1.</td>
+			<td>1.2.</td>
+		</tr>
+		<tr>
+			<td>2.1.</td>
+			<td>2.2.</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<th></th>
+			<th scope="col">imie i nazwisko</th>
+			<th scope="col">miejsce urodzenia</th>
+			<th scope="col">rozpoczecie dzialalnosci</th>
+		</tr>
+		<tr>
+			<th scope="row">Drake</th>
+			<td>Aubrey Drake Graham</td>
+			<td>Toronto</td>
+			<td>2001</td>
+		</tr>
+		<tr>
+			<th scope="row">Rihanna</th>
+			<td>Robyn Rihanna Fenty</td>
+			<td>Saint Michael</td>
+			<td>2005</td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr>
+			<th></th>
+			<th scope="col">Jezyk</th>
+			<th scope="col">Ludnosc</th>
+		</tr>
+		<tr>
+			<th scope="row">Niemcy</th>
+			<td rowspan="2">niemiecki</td>
+			<td>80,62</td>
+		</tr>
+		<tr>
+			<th scope="row">Austria</th>
+			<td>8,475</td>
+		</tr>
+	</table>
+	<!-- table sections -->
+	<table>
+		<thead>
+			<tr><!--Zawartosc naglowka tabeli --></tr>
+		</thead>
+		<tbody>
+			<tr><!--Zawartosc ciala tabeli --></tr>
+		</tbody>
+		<tfoot>
+			<tr><!-- Zawartosc stopki tabeli --></tr>
+		</tfoot>
+	</table>
+</body>
+</html>
+
