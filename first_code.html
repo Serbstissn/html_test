@@ -10,6 +10,20 @@
 	<meta name="keywords" content="key1 , key2">
 	<!-- Page title -->
 	<title>Tytul strony</title>
+	<!--style element -->
+	<style>
+		h5{
+			color:blue;
+		}
+		.blue{
+			color:blue;
+		}
+		#content{
+			font-size: 12px;
+		}
+	</style>
+	<!-- linking CSS file -->
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -236,6 +250,108 @@
 			<tr><!-- Zawartosc stopki tabeli --></tr>
 		</tfoot>
 	</table>
+	<!-- Elementy liniowe i blokowe -->
+	<h3>Naglowek to element blokowy</h3>
+	<div>
+		<a href="http://google.com"> Link jest elementem liniowym</a>. 
+		W jednej lini mozna wyswietlic <strong> wiele elementow
+		liniowych</strong>
+	</div>
+	<p>Paragraf jest elementem blokowym.</p>
+	<ul>
+		<li>Lista jest rowniez elementem blokowym</li>
+		<li>W elementach blokowych mozna umieszczac
+			<em>elementy liniowe.</em>
+		</li>
+	</ul>
+	<!-- Identifier example -->
+	<h3 id="smallHeader">Naglowek z id</h3>
+	<a href="http://google.com" id="link">
+		Link rowniez moze miec swoj identyfikator
+	</a>
+	<p id="text">Paragraf z identyfikatorem</p>
+	<!-- class example -->
+	<h3 class="smallHeader">Naglowek z klasa</h3>
+	<a href="http://google.com" class="link text">
+		Ten link ma dwie klasy
+	</a>
+	<p class="text">
+		Paragraf ma te sama klase co link
+	</p>
+	<!-- example of id in CSS file -->
+	<p id="intro">
+		Ten paragraf ma identyfikator . Uzyje go do zmiany stylu w pliku css.
+	</p>
+	<!-- example of class in CSS file -->
+	<h2 class="content">Naglowek ma klase content</h2>
+	<p class="content">Ten paragram ma klase content</p>
+	<p class="content">Ten paragraf jest takze klasy content</p>
+	<!-- style attribute -->
+	<p style="letter-spacing: 2px; word-spacing: 5px;">
+		Wygląd tego paragrafu jest okreslony z uzyciem atrybutu style
+	</p>
+	<p style="letter-spacing: 2px; word-spacing: 5px;">
+		Pierwszy paragraf
+	</p>
+	<p style="letter-spacing: 2px; word-spacing: 5px">
+		Drugi paragraf
+	</p>
+	<p id="content">Paragraf o id content</p>
+	<!-- some other style examples -->
+	<ul>
+		<li>pierwszy</li>
+		<li>drugi</li>
+	</ul>
+	<p class="shadow">
+		Tekst z cieniem
+	</p>
+	<!-- inheriting of styles  -->
+	<div class="myClass">
+		<p>Lacina podworkowa...</p>
+	</div>
+	<!-- przyklad kaskadowosci stylow w CSS -->
+	<p>
+		Zwykly paragraf
+	</p>
+	<p class="withBackground">
+		Paragraf z klasa
+	</p>
+	<!-- em and rem unit example -->
+	<section>
+		<h1>Naglowek do przykladu z jednostka em i rem</h1>
+	</section>
+	<!-- text + lines example -->
+	<p class="failed">
+		Ten tekst powinien byc przekreslony
+	</p>
+	<!-- Indentation example -->
+	<p id="article">
+		Ten fragment tekstu ma przedstawiac jak dzialaja wciecia ustawione 
+		w arkuszach stylu CSS. Skopiuje ten tekst pare razy kopiuje ten tekst pare razy
+		kopiuje ten tekst pare razy.
+	</p>
+	<!-- Zmiana wielkosci liter w CSS -->
+	<p class="headline">
+		ten tekst powinien pojawic sie napisany wielkimi literami pomimo 
+		ze w kodzie html jest malymi
+	</p>
+	<!-- changing spaces between letters -->
+	<p class="close_text">
+		W tym tekscie odleglosci miedzy literami sa zmienione
+	</p>
+	<!-- changing spaces between words -->
+	<p class="close_word">
+		W tym tekscie odleglosci pomiedzy slowami sa zmienione
+	</p>
+	<!-- opacity example -->
+	<p class="transparent_back">
+		To jest akapit z czesciowo przezroczystym tlem.
+	</p>
+	<!-- image as background -->
+	<p class="image_back">
+		Ten akapit powinien miec obrazek jako tlo
+		<br><br><br><br>
+	</p>
 </body>
 </html>
 

@@ -1,0 +1,227 @@
+p{
+	/* Color of text */
+	color: black;
+	/* size of text */
+	font-size: 12px;
+	
+}
+/*paragraph <p> style */
+p{
+	color:red;
+}
+/* Style for element with id intro*/
+#intro{								
+	color:red;
+	font-size: 12px;
+	/* elemet's frame border style */
+	border: 1px solid black;
+}
+/*Style for element with class content */
+.content{
+	color: #00f;
+	/* bold text*/
+	font-weight: bold;
+	/* text in italic*/
+	font-style: italic;
+}
+ul{
+	/* changing the unorderd list element marker */
+	list-style-type: square;
+}
+/* Style for paragraph with class shadow */
+p.shadow{
+	/* Alignment of the text*/
+	text-align: center;
+	/* Setting text shadow*/
+	text-shadow: 1px 1px;
+}
+.myClass{
+	font-size: 28px;
+	border: 1px groove black;
+}
+
+p{
+	/* elements background color*/
+	background-color: blue;
+}
+p.withBackground{
+	background-color: green;
+}
+p{
+	color: maroon;
+}
+div{
+	/* defining color with keyword */
+	background-color: yellow;
+}
+p{
+	/* Color with RGB or RGBa*/
+	color: rgba(255, 0 , 0, .25);
+}
+div{
+	background-color: rgba(255, 255 ,255, 1);
+}
+p{
+	/* Color with HSL */
+	color: hsl(0, 100%, 25%);
+}
+div{
+	color: hsl(0, 100%, 25%);
+}
+h1{
+	/* Color with HSLa*/
+	color: hsla(0, 100%, 25%, .25);
+}
+h2{
+	color: hsla(60, 60%, 50%, .75);
+}
+p{
+	/* Hexidecimal color */
+	color: #ff00ff;
+}
+a{
+	/* Shortened hexidecimal color */
+	color: #f0f;
+}
+/*Examples of px units*/
+h1{
+	font-size: 24px;
+}
+h2{
+	font-size: 20px;
+}
+p{
+	font-size: 14px;
+}
+/*Example of percenatage units*/
+div{
+	width: 50%;
+	background-color: hsl(120,100%, 50%);
+}
+html{
+	font-size: 16px;
+}
+section{
+	font-size: 20px;
+}
+/* em units*/
+h1{
+	font-size: 2em; /*20px*2 = 40px */
+}
+/* rem units*/
+h1{
+	font-size: 2rem; /*16px*2 = 32px */
+}
+/*Changing color of text*/
+.text{
+	color: rgb(255, 0, 0);
+}
+/* Setting font of text */
+p{
+	font-family: "Arial Light", Arial, sans-serif;
+	/* Text size */
+	font-size: 24px;
+	/* Style of text */
+	font-style: italic;
+}
+div{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	/*Thickness of font*/
+	font-weight: 700;
+}
+/* Setting line height */
+p{
+	line-height: 2em;
+}
+/* text alignment */
+p{
+	text-align: center;
+}
+/* adding line to text */
+.failed{
+	text-decoration: line-through;
+}
+/* Indentation in text */
+#article{
+	text-align: left;
+	text-indent: 20px;
+}
+/* text with shadow */
+div{
+	text-shadow: 0 5px 5px LightGray;
+}
+/*Changing lettercases*/
+.headline{
+	text-transform: uppercase;
+}
+/* changing space between letters */
+.close_text{
+	font-size:20px;
+	letter-spacing: -2px;
+}
+/* changing space between words */
+.close_word{
+	word-spacing: .3em;
+}
+/* setting background colors */
+article{
+	background-color: #b2b2b2;
+}
+section{
+	background-color: rgb(150, 90, 210);
+}
+div{
+	background-color: rgba(135, 25, 110, .3);
+}
+span{
+	background-color: red;
+}
+/* Setting opacity for background*/
+.transparent_back{
+	background-color: #b2b2b2;
+	opacity: .3;
+}
+/* linear gradient background example */
+div{
+	/* for browsers not supporting gradients */
+	background-color: red;
+	/*linear gradient */
+	background-image:
+		linear-gradient(180deg,		/*angle*/
+		red,						/*color1*/
+		yellow);					/*color2*/
+}
+/* radial gradient example*/
+div{
+	background-color: red;
+	background-image:
+		radial-gradient(circle, red , yellow);
+}
+/*Example of image as background*/
+.image_back{
+	background-color: blue;
+	background-image: url(Images/CSS_logo.png);
+	/*repeating of image */
+	background-repeat: no-repeat;
+}
+/* Example of displaying <li> elements horizontally */
+li{
+	display: inline-block;
+	margin: 0 20px;
+}
+/* Example of table borders*/
+th, td{
+	border: 1px solid black;
+	/*Additional space top-bottom and left-right*/
+	padding: 0px 30px;
+}
+/* Border collapsing*/
+table{
+	border-collapse: collapse;
+}
+/* Space between borders */
+table{
+	border-collapse: separate;
+	border-spacing: 10px;
+}
